@@ -1,4 +1,4 @@
-.form {
+.form-reg {
   z-index: 15;
   position: relative;
   background: #ffffff;
@@ -10,24 +10,24 @@
   overflow: hidden;
 }
 
-.form-panel {
+.form-panel-reg {
   padding: 60px calc(5% + 60px) 60px 60px;
   box-sizing: border-box;
 }
 
-.form-header {
+.form-header-reg {
   margin: 0 0 40px;
 }
 
-.form-group {
+.form-group-reg {
   margin: 0 0 20px;
 }
 
-.form-group:last-child {
+.form-group-reg:last-child {
   margin: 0;
 }
 
-label {
+.form-group-reg label {
   display: block;
   margin: 0 0 10px;
   color: rgba(0, 0, 0, 0.6);
@@ -38,7 +38,7 @@ label {
   letter-spacing: 0.2em;
 }
 
-input {
+.form-group-reg input {
   outline: none;
   display: block;
   background: rgba(0, 0, 0, 0.1);
@@ -55,11 +55,11 @@ input {
   transition: 0.3s ease;
 }
 
-input:focus {
+.form-group-reg input:focus {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.form-header h1 {
+.form-header-reg h1 {
   padding: 4px 0;
   color: #66cdaa;
   font-size: 24px;
@@ -67,7 +67,7 @@ input:focus {
   text-transform: uppercase;
 }
 
-button {
+.form-group-reg button {
   outline: none;
   background: #66cdaa;
   width: 100%;
@@ -83,6 +83,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.form-group-reg button:hover {
   background: #268163;
 }
