@@ -1,0 +1,126 @@
+.container {
+    max-width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Указываем конкретные значения ширины для различных размеров экрана */
+@media screen and (min-width: 320px) {
+    .input-field {
+        width: 280px; /* Укажите нужное значение ширины для 320px */
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .input-field {
+        width: 330px; /* Укажите нужное значение ширины для 370px */
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .input-field {
+        width: 380px; /* Укажите нужное значение ширины для 425px */
+    }
+}
+
+.submit-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Указываем конкретные значения ширины для различных размеров экрана */
+@media screen and (min-width: 320px) {
+    .submit-btn {
+        width: 280px; /* Укажите нужное значение ширины для 320px */
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .submit-btn {
+        width: 330px; /* Укажите нужное значение ширины для 370px */
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .submit-btn {
+        width: 380px; /* Укажите нужное значение ширины для 425px */
+    }
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Медиа-запросы */
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .container {
+        max-width: 370px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .container {
+        max-width: 425px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+
+
+
+
+
