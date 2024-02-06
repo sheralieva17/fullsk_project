@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Register from "../components/auth/Register";
@@ -9,5 +10,7 @@ const MainRoutes = () => {
     </Routes>
   );
 };
+
+
 
 export default MainRoutes;
